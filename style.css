@@ -1,7 +1,10 @@
 #form{
     margin: auto;
     padding: 14px, 12px;
-    width: 20%;}
+    width: 20%;
+    margin-left: 70%;
+}
+    
    
  
  
@@ -16,4 +19,12 @@
  
  
     }
- 
+ .background{
+    background-color: aqua;
+    border: solid aqua;
+    width: 90%;
+    margin: auto;
+
+    
+
+ }
