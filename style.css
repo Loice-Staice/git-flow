@@ -1,11 +1,18 @@
-#form{
-    margin: auto;
+#form{ margin: auto;
     padding: 14px, 12px;
-    width: 20%;
-    margin-left: 70%;
+    width: 100%;
+    margin-left: 27%;
+    background-color: aliceblue;
+  height: 400px;
+    
 }
     
-   
+   #background{ background-image: url('picture.png');
+    background-position: 15%;
+    width: 67%;
+    height: 400px;
+
+   }
  
  
     button{
@@ -21,10 +28,48 @@
     }
  .background{
     background-color: aqua;
-    border: solid aqua;
-    width: 90%;
+    border: solid 50px aqua;
+    width: 80%;
     margin: auto;
+    height: 700px;
 
+
+
+    }#table{
+        margin: auto;
+        padding: 14px, 12px;
+        width: 50%;
+        margin: auto;
+         .button{
+          display:flex ;
+          gap:5px;
+         }
+        }
+        #caption1{
+            list-style-type: none;
+          margin: 0;
+          padding: 16px;
+          display :flex;
+          justify-content: space-between;
+        }
+        #caption2{  list-style-type: none;
+          margin: 0;
+          padding: 16px;
+          display :flex;
+          gap: 14px;
+        }
+        .picture{background-image: url('picture.png');
+        background-repeat: repeat-x;
     
 
- }
+        }
+    .background2{
+      background-color: white;
+      height: 600px;
+    }
+    .peach{
+      display: flex;
+      gap: 15px;
+    }
+        
+
